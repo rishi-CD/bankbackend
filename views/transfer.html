@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Delta Banking - Transfer Fund</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="dashboard-main">
+        <div class="page-content-active">
+            <h8>Transfer Fund</h8>
+            <form id="transfer-form">
+                <div class="form-group1">
+                    <label for="from-account">Choose an Account</label>
+                    <select id="from-account" required>
+                        <option value="">Select an account</option>
+                        <option value="savings">Savings Account</option>
+                        <option value="current">Current Account</option>
+                    </select>
+                </div>
+                <div class="form-group1">
+                    <label for="to-account">Beneficiary Account</label>
+                    <select id="to-account" required>
+                        <option value="">Select a Beneficiary</option>
+                        <option value="beneficiary1">Current</option>
+                        <option value="beneficiary2">Savings</option>
+                    </select>
+                </div>
+                <div class="form-group1">
+                    <label for="amount">Amount in Rupees</label>
+                    <input type="number" id="amount" required>
+                </div>
+                <div class="form-group1">
+                    <label for="remarks">Remarks</label>
+                    <input type="text" id="remarks">
+                </div>
+                <div class="form-actions">
+                    <button type="reset" class="btn-secondary">Reset</button>
+                    <button type="submit" class="btn-new">Send</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="tranfer.js"></script>
+</body>
+</html>

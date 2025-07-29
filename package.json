@@ -1,0 +1,28 @@
+{
+  "name": "bankbackend",
+  "version": "1.0.0",
+  "description": "creating backend for banking app",
+  "main": "app.js",
+  "repository": "https://github.com/rishi-CD/banking_backend",
+  "author": "rishi",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "orm": "^8.0.1",
+    "pg": "^8.16.3",
+    "sqlite": "^5.1.1",
+    "xpress": "^2.4.6"
+  }
+}
