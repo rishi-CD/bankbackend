@@ -6,6 +6,7 @@ This is an banking website this webcontains frontend and backend and connected d
     Installation
     Databaseschema
     Dotenv
+    Techs
     explanation
 
 # Installation:
@@ -38,5 +39,33 @@ customerName, bankName, type, password, confirmPassword,customerId
         "password" : "password",
         "confirmpassword" : "password"
        }
+### Dotenv credentials 
 
+    host: 'localhost',
+    user: 'database user',
+    password: 'password',
+    database: 'database',
+    port: default port
+# Tech
+## frontend
+- HTML
+- CSS
+- JAVASCRIPT
+## Backend
+- node js
+- express
+## Database
+- postgress
+- pgadmin
+## Tool
+- Nodemon
+
+# Explanation:
+
+## login and register
+    In this page i have used to api to store the data in the database and get the data from the data and used for verification(/register,/login)
+## dashboard
+      this page is a normal html and css webpage
+## transfer
+      In this page i have assigned current and savings value then created a alert messge when it sends
 
